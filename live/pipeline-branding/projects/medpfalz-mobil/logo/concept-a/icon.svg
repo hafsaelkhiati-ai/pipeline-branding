@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="300" height="300">
+  <title>LauterMobil</title>
+  <rect width="100" height="100" rx="24" fill="#1D4E89"/>
+  <path d="M20 80 C48 80 30 42 60 42" fill="none" stroke="#FFFFFF" stroke-width="13" stroke-linecap="round"/>
+  <path d="M24 80 C48 80 30 42 57 42" fill="none" stroke="#1D4E89" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="4.5 5.5"/>
+  <circle cx="79" cy="42" r="9" fill="#F2A541"/>
+</svg>

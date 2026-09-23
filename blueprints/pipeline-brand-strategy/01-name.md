@@ -2,7 +2,7 @@
 
 *Part of [pipeline-brand-strategy.md](../pipeline-brand-strategy.md). Read the global orchestrator first.*
 
-**Status:** Draft v0.1 — unvalidated until the MedPfalz Mobil run confirms it.
+**Status:** v0.2: validated on the MedPfalz Mobil run (2026-09-23). It produced 4 candidates, and one (LauterMobil) was chosen.
 
 ## Goal
 
@@ -20,6 +20,12 @@ From the project's intake checklist (see global blueprint):
 3. Filter out anything that's an obvious trademark red flag at a glance (identical to a known competitor/brand) before spending time on it.
 4. Narrow to 2–4 strongest candidates.
 5. Log all candidates (including rejected ones and why) in the project's status file — this is useful history even for names that don't survive Domain/Trademark checks.
+6. Check each candidate for bad connotations with the target audience. Example: *Geleit* suggests *letztes Geleit* (a funeral), and *Fahrwohl* reads as a farewell. Both are wrong for elderly or sick clients.
+
+## Industry Rules
+
+- **German patient transport:** the descriptor is always "Krankenfahrten" or "Krankenfahrdienst", never "Krankentransport". *Krankentransport* is the regulated, medically staffed service (KTW, licensed under state rescue-services law). Using it for seated transport misleads patients and invites regulatory trouble.
+- **Place names:** a place name plus a generic service (e.g. "Lautertal Krankenfahrten") is probably too descriptive to register as a trademark, and other towns may share the place name. A coined or double-meaning name (e.g. LauterMobil) is stronger.
 
 ## Decision Point
 

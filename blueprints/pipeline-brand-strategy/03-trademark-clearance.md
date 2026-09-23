@@ -2,7 +2,7 @@
 
 *Part of [pipeline-brand-strategy.md](../pipeline-brand-strategy.md). Read the global orchestrator first.*
 
-**Status:** Draft v0.1 — unvalidated until the MedPfalz Mobil run confirms it.
+**Status:** v0.2: validated on the MedPfalz Mobil run (2026-09-23).
 
 ## Goal
 
@@ -34,8 +34,21 @@ Clear/Caution/Blocked classification per candidate, with findings, logged in the
 
 ## Equipment
 
-None yet.
+No script yet. The method below is free.
+
+1. **TMview API** (EU joint database: DE national, EUIPO, WIPO international):
+   `POST https://www.tmdn.org/tmview/api/search/results?translate=false`
+   Body: `{"page":"1","pageSize":"100","criteria":"C","basicSearch":"<term>","fOffices":["DE","EM","WO"]}`
+   Send browser-style `User-Agent`, `Origin: https://www.tmdn.org` and `Referer: https://www.tmdn.org/tmview/` headers. Use Python (not Git Bash curl) for umlauts. Sanity-check against a known mark first (e.g. "viamedgo").
+2. Focus on the relevant Nice classes. For patient transport those are **39** (transport) and **44** (medical/care services).
+3. **North Data** (`https://www.northdata.de/<term>`) for companies trading under the name without a registered mark.
+4. **Web search** for real-world use in the region and a view of local competitors.
+5. The DPMAregister web form does **not** work for automated search (session-based). Use TMview, which includes DE marks.
+
+This is a screening, not a legal clearance. Before print or filing, the final safeguard is a lawyer check or a formal DPMA application in the relevant classes.
 
 ## Open Questions
 
-- **Which trademark search tool/service to use** (e.g. a formal registry search like USPTO TESS / DPMA register for Germany, or a paid clearance service). Left open deliberately — no tool has been picked. Per `.claude/rules/permissions.md`, connecting any tool/MCP/API requires Hafsa's explicit approval before first use. Resolve this the first time this stage actually runs (MedPfalz Mobil).
+- Whether Pipeline Branding offers DPMA filing as part of the package, or only recommends it.
+
+*Resolved 2026-09-23: trademark search tool (see Equipment above).*

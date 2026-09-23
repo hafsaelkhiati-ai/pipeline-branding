@@ -3,18 +3,29 @@
 *Updated at the end of each session. Read this FIRST on startup.*
 
 ## Last Session
-- **Date:** 2026-09-22
-- **Summary:** Restructured the Pipeline Brand Strategy Blueprint from a flat v0.1 draft into a global orchestrator (blueprints/pipeline-brand-strategy.md, v0.2) + 7 sub-blueprints (blueprints/pipeline-brand-strategy/01-name.md through 07-visual-consistency.md), via a grill-me session. Received the real pilot case — MedPfalz Mobil, a non-emergency patient transportation brand in Katzweiler, Germany — and used it to standardize the intake checklist and seed the first live project at live/pipeline-branding/projects/medpfalz-mobil/status.md (currently at Stage 1 — Name). Added templates/pipeline-project-status.md for future projects.
+- **Date:** 2026-09-23
+- **Summary:** First live run of the Pipeline Brand Strategy on MedPfalz Mobil, Stages 1–4.
+  - **Stage 1:** 4 name candidates.
+  - **Stages 2 and 3:** run on my own, with Hafsa's authorisation. Domains checked with Vercel + RDAP; trademarks with TMview + North Data + web.
+  - **Name:** Hafsa chose **LauterMobil** (clear on domain, trademark and market).
+  - **Stage 4 (Logo), 3 rounds:**
+    - Round 1, my SVG concepts: rejected (they didn't show elderly transport).
+    - Round 2, Canva warm and human versions: superseded.
+    - Round 3, Canva premium LM monogram with Hafsa's brand colours: 2 proposals ready.
+  - **Findings:** Canva AI can't hit exact hex codes and doesn't keep pages consistent. The final logo has to be a vector master.
+  - **Blueprints:** updated to v0.3 with everything learned.
 
 ## Open Tasks
-- Run MedPfalz Mobil through Stage 1 (Name) — generate German-first name candidates from the intake brief; first live validation of the blueprint
-- Resolve domain-check and trademark-check tool choice (left open, needs Hafsa's approval per permissions.md) once Stage 2/3 are reached
-- Settle business card and flyer print specs (size/bleed/format) once Stage 5/6 are reached
+- **LauterMobil logo (waiting on Hafsa):** pick A's solid block LM or B's clean line LM (logo/canva-premium/). Then I rebuild it as a vector master with the exact brand colours #043575 / #2F8D27 / #0C75CB, plus variants (logo, logo + slogan, icon, reversed).
+- Then Stage 5 (Business Card): settle the print specs first (size, bleed, format)
+- Domain lautermobil.de not registered yet: a purchase, needs Hafsa's go and a decision on who owns it (Hafsa or the client)
+- Consider a DPMA trademark filing for LauterMobil in classes 39 + 44
+- Possible Equipment (needs approval): TMview search + RDAP domain check scripts; logo vector generator (currently in .tmp/logo-generator/, not committed)
 
 ## Current Priorities
 - Build the Pipeline Branding automated pipeline itself
-- Validate the new Blueprint structure end-to-end via the MedPfalz Mobil run
+- Finish the LauterMobil run end-to-end (Stages 4–7) to validate the rest of the Blueprint
 
 ## Active Projects
-- Pipeline Branding — Active, this is both the business and the current build
-- MedPfalz Mobil — Active, first client run through the Pipeline Brand Strategy Blueprint, at Stage 1 (Name)
+- Pipeline Branding: active. This is both the business and the current build.
+- MedPfalz Mobil → **LauterMobil**: active, first client run, at Stage 4 (Logo), waiting on Hafsa's pick

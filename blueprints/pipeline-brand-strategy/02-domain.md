@@ -2,7 +2,7 @@
 
 *Part of [pipeline-brand-strategy.md](../pipeline-brand-strategy.md). Read the global orchestrator first.*
 
-**Status:** Draft v0.1 — unvalidated until the MedPfalz Mobil run confirms it.
+**Status:** v0.2: validated on the MedPfalz Mobil run (2026-09-23).
 
 ## Goal
 
@@ -31,8 +31,18 @@ Domain availability status per candidate, logged in the project status file, fee
 
 ## Equipment
 
-None yet.
+No script yet. The method below is free and read-only.
+
+1. **Vercel MCP `get_bulk_availability`**: up to 50 domains per call. Check the plain, hyphenated and descriptor forms (e.g. `name.de`, `name.com`, `name-krankenfahrten.de`).
+2. **Verify with registry RDAP** (404 = unregistered, 200 = taken):
+   - `.de`: `https://rdap.denic.de/domain/<domain>`
+   - `.com`: `https://rdap.verisign.com/com/v1/domain/<domain>`
+3. Write umlauts as ae/oe/ue (e.g. `pfaelzer-geleit.de`).
+
+**Never register or buy a domain without Hafsa's explicit go.** It's a purchase, and it's still open whether Hafsa or the client should own it.
 
 ## Open Questions
 
-- **Which domain-check tool/service to use.** Left open deliberately — no registrar or WHOIS tool has been picked. Per `.claude/rules/permissions.md`, connecting any tool/MCP/API requires Hafsa's explicit approval before first use. Resolve this the first time this stage actually runs (MedPfalz Mobil).
+- Who owns and pays for the client's domain: Hafsa (bundled into the service) or the client directly? Decide per project until there's a standard.
+
+*Resolved 2026-09-23: domain-check tool. Hafsa authorised running this stage on my own with free research tools.*

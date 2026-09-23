@@ -2,7 +2,7 @@
 
 *Read this before every run. This is the hub — each stage's actual how-to lives in its own sub-blueprint under `blueprints/pipeline-brand-strategy/`.*
 
-**Status:** v0.2 — Draft, unvalidated. Structure covers all 7 stages; several stages have open tool/spec decisions (see each sub-blueprint's Open Questions). First live run in progress: MedPfalz Mobil.
+**Status:** v0.3. Stages 1–3 validated on the first live run (MedPfalz Mobil → LauterMobil). Stage 4 is in progress. Stages 5–7 haven't been run yet.
 **Owner:** Hafsa
 **Replaces:** Manual process currently taking 1+ week per client.
 
@@ -66,3 +66,9 @@ Per `.claude/rules/permissions.md`, always stop and confirm before:
 
 - 2026-09-22 — v0.1 created. Single-file draft, structure only, stages 2–5 all TBD.
 - 2026-09-22 — v0.2: restructured into this global orchestrator + 7 sub-blueprints, following a grill-me session with Hafsa. Received the MedPfalz Mobil pilot case (a real pending client — Non-emergency patient transportation, Katzweiler, Germany) and used it to standardize the intake checklist above and seed the first live project. Locked in: Canva + ChatGPT + Gemini for Stages 4–6 (no Adobe); domain/trademark tools stay open pending the live run; Stage 7 uses a manual checklist, not an undefined method.
+- 2026-09-23: v0.3. First live run of Stages 1–4 (MedPfalz Mobil, final name **LauterMobil**).
+  - 01–03 validated.
+  - 01 gained an audience connotation check and industry naming rules (Krankenfahrten, never Krankentransport).
+  - 02 and 03 now record the free tools that worked: Vercel + RDAP for domains; TMview API + North Data + web search for trademarks.
+  - 04 now starts with a direction interview, uses Canva AI to explore concepts, and records Canva AI's limits (no exact hex codes, inconsistent pages, raster only), so the final logo is a vector master.
+  - ChatGPT and Gemini aren't connected. Canva (connected MCP) is the working tool for Stages 4–6.
