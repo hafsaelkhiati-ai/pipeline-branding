@@ -34,7 +34,7 @@ Lay out a business card using the approved logo and the brand's contact/service 
 ## Steps
 
 1. Draft the card copy from the confirmed inputs. **Never invent contact details.** If something is missing, stop and ask.
-2. Build the card with the card generator (`.tmp/logo-generator/make_card.py`, not yet Equipment). It embeds the approved logo SVGs, outlines the text and checks that everything sits inside the safe area.
+2. Build the card with the card generator (`equipment/make_business_card.py`). It embeds the approved logo SVGs, outlines the text and checks that everything sits inside the safe area.
 3. Render and check the previews with the trim and safe lines drawn in. Fix any crowding or empty space before showing Hafsa.
 4. Present the draft. Apply her changes one at a time ("change only X"), and archive rejected variants rather than deleting them.
 
@@ -53,5 +53,5 @@ Print PDF (2 pages with bleed), front and back previews, front and back SVGs.
 
 ## Open Questions
 
-- Should the card list the client's full service list (it currently shows 4, the flyer shows 8)? Check this in Stage 7.
-- Promote `make_card.py` to Equipment (needs approval).
+- Decided 2026-09-24: the card should list the client's full service list, the same as the flyer. The back layout has to be redesigned to fit 8 services readably (LauterMobil card draft 3, pending).
+*Resolved 2026-09-24: the card generator was promoted to `equipment/make_business_card.py`.*

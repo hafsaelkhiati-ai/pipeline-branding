@@ -15,8 +15,13 @@
 - [x] Hafsa approves business card (draft 2, +49 phone, one-colour name) | Source: Stage 5 | Done: 2026-09-24
 - [x] Flyer photos: 4 AI photos generated and approved | Source: Stage 6 | Done: 2026-09-24
 - [x] Flyer draft 1 (A5, 2 sides) | Source: Blueprint 06 | Done: 2026-09-24
-- [ ] Hafsa approves flyer draft 1, including the copy I wrote | Source: Stage 6 | Due: none
-- [ ] Decide whether the business card should list all 8 LM services, to match the flyer | Source: consistency (Stage 7) | Due: before print
+- [x] Hafsa approves flyer draft 1, including the copy I wrote | Source: Stage 6 | Done: 2026-09-24
+- [x] Decide: the card lists all 8 LM services, the same as the flyer (approved) | Source: consistency | Done: 2026-09-24
+- [x] Promote the scripts to Equipment (equipment/ + README) | Source: Hafsa approval | Done: 2026-09-24
+- [ ] Business card draft 3: redesign the back to fit all 8 services readably, then show Hafsa | Source: Stage 5/7 | Due: next session
+- [ ] Stage 7 Visual Consistency check across logo, card and flyer, then Hafsa's sign-off | Source: Blueprint 07 | Due: after card draft 3
+- [ ] Register lautermobil.de. Needs Hafsa's explicit "buy it" and a decision on the owner (Hafsa or client) | Source: Stage 2 | Due: before any print
+- [ ] Decide on a DPMA trademark filing for LauterMobil (classes 39 + 44) | Source: Stage 3 | Due: before print
 - [ ] LauterMobil Stage 6 flyer | Source: Blueprint 06 | Due: after logo
 - [ ] LauterMobil Stage 7 visual consistency sign-off | Source: Blueprint 07 | Due: after 5 + 6
 - [ ] Decide who registers lautermobil.de (Hafsa or client), then register | Source: Stage 2 | Due: soon, the domain is unprotected until registered

@@ -2,7 +2,7 @@
 
 *Part of [pipeline-brand-strategy.md](../pipeline-brand-strategy.md). Read the global orchestrator first.*
 
-**Status:** v0.2: first run on LauterMobil (draft 1 delivered 2026-09-24, waiting on approval).
+**Status:** v0.2: validated on LauterMobil (flyer draft 1 approved 2026-09-24).
 
 ## Goal
 
@@ -42,7 +42,7 @@ Lay out a flyer using the approved logo, brand assets, photos made to brief, and
 ## Steps
 
 1. Write the copy: headline, intro line, the services in scannable form, the approved facts, a call to action, contact details. Flag any wording you wrote yourself for Hafsa to check.
-2. Build it with the flyer generator (`.tmp/logo-generator/make_flyer.py`, not yet Equipment): hero photo on the front, logo, headline, 3 key facts, a phone band; services, photo grid with captions, advantages and a contact band on the back.
+2. Build it with the flyer generator (`equipment/make_flyer.py`): hero photo on the front, logo, headline, 3 key facts, a phone band; services, photo grid with captions, advantages and a contact band on the back.
 3. Render with the trim and safe lines drawn in. Fix hidden text or unbalanced empty areas before presenting.
 4. Present the draft for approval.
 
@@ -56,4 +56,4 @@ Print PDF (A5, 2 pages, bleed), front and back previews, SVG sources, and approv
 
 ## Open Questions
 
-- Promote `make_flyer.py` and the photo-export workflow to Equipment (needs approval).
+*Resolved 2026-09-24: `make_flyer.py` was promoted to Equipment. The photo export workflow stays a manual Canva MCP procedure (documented above).*

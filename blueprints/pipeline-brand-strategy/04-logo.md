@@ -56,6 +56,6 @@ None yet.
 
 ## Open Questions
 
-- Promote the rebuild scripts (`.tmp/logo-generator/build_exact_logo.py`: measuring, tracing and verifying) to Equipment. Needs approval.
+- None open. `equipment/build_exact_logo.py` was promoted on 2026-09-24.
 
 *Resolved 2026-09-24: export formats (SVG + transparent PNG 3600 px + vector PDF, 6 variants) and the vector tool (a hand-built SVG that reproduces the chosen design exactly).*

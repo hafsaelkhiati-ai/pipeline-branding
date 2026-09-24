@@ -5,7 +5,7 @@
 **Slug:** medpfalz-mobil
 **Started:** 2026-09-22
 **Final name:** LauterMobil
-**Current Stage:** 6 (Flyer): draft 1 waiting on Hafsa's approval. Logo (Stage 4) and business card (Stage 5, draft 2) are approved.
+**Current Stage:** 7 (Visual Consistency) is next. Logo, business card (draft 2) and flyer (draft 1) are all APPROVED by Hafsa (2026-09-24). Queued: card draft 3 listing all 8 services (decision approved; layout still to be designed and shown).
 **Blueprint version in use:** blueprints/pipeline-brand-strategy.md v0.3
 
 ## Intake
@@ -190,9 +190,9 @@
   - photo grid: wheelchair ramp (large), door-to-door and clinic arrival, with caption strips
   - "Ihre Vorteile" (4 points, including the service area)
   - dark-blue contact band: `logo-reversed`, phone, "Rund um die Uhr erreichbar", email, web, address
-- **Files:** `flyer/LauterMobil-Flyer-A5-print.pdf` · `preview-front.png` / `preview-back.png` · `flyer-front.svg` / `flyer-back.svg`. Build file: `.tmp/logo-generator/make_flyer.py`.
+- **Files:** `flyer/LauterMobil-Flyer-A5-print.pdf` · `preview-front.png` / `preview-back.png` · `flyer-front.svg` / `flyer-back.svg`. Build file: `equipment/make_flyer.py`.
 - **Copy I wrote (Hafsa to check):** the headline, the intro line "Wir bringen Sie sicher und bequem ans Ziel – zu Arzt, Klinik, Dialyse oder Reha und wieder zurück nach Hause.", the caption "Sicher in die Praxis", and "Jetzt Fahrt vereinbaren".
-- **Status: waiting on Hafsa's approval.**
+- **Status: APPROVED by Hafsa 2026-09-24**, including the copy I wrote.
 
 **Photo round 2 (history; rejected):** searched Pexels, Unsplash and Pixabay in English and German. The free libraries have no German helper-at-the-car scene; the exact matches are paid iStock images. Best free picks in `flyer/photo-candidates/round2/`:
 - `pexels-17310675.jpg`: European-looking older woman relaxed in a car's back seat. Premium, and her green cardigan matches the brand. (Treedeo)
