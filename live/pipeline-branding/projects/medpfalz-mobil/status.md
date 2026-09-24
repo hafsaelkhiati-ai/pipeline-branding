@@ -5,7 +5,7 @@
 **Slug:** medpfalz-mobil
 **Started:** 2026-09-22
 **Final name:** LauterMobil
-**Current Stage:** 4 (Logo), round 3: premium LM monogram proposals A/B waiting on Hafsa's pick. Next, the vector master in exact brand colours.
+**Current Stage:** 4 (Logo) complete pending final confirmation — vector master built from Hafsa's chosen concept. Next: Stage 5 (Business Card), blocked on missing inputs (see Next Action).
 **Blueprint version in use:** blueprints/pipeline-brand-strategy.md v0.3
 
 ## Intake
@@ -105,6 +105,18 @@
 - Review: Canva ignored "identical on both pages" again, so pages 1 and 2 differ in both proposals. Strongest marks: A page 2 (solid block LM) and B page 1 (clean line LM). Colours are only approximate, e.g. #113C76 / #003470 instead of #043575, and #479950 / #219F10 instead of #2F8D27. Canva AI doesn't hit exact hex values.
 - **Lesson for 04-logo.md:** Canva AI is good for exploring concepts, but it can't deliver a consistent, exact-colour, vector master. After Hafsa picks a direction, rebuild the chosen mark as a vector with the exact brand hex codes.
 
+**Final pick (2026-09-24):** Hafsa chose Proposal A's solid-block LM (the `A-slogan.png` version).
+
+**Vector master built 2026-09-24.** Canva has no vector export (PDF/PNG/JPG only), so the monogram was redrawn as clean flat vector shapes in the exact brand colours — a faithful redraw of the chosen concept, not a pixel trace. Files in `logo/premium/`:
+- `logo-horizontal.svg` / `.png` — logo only
+- `logo-horizontal-with-slogan.svg` — logo + "Sicher unterwegs. In guten Händen"
+- `logo-horizontal-reversed.svg` — white version for dark backgrounds
+- `icon.svg` / `.png` — monogram alone, checked down to 24px
+- `preview.html` / `preview.png` — side-by-side with the chosen Canva reference
+
+**Status:** shown to Hafsa for confirmation that the redraw matches well enough. Not yet formally signed off per the Stage 4 Decision Point.
+**File(s):** `logo/premium/` (vector master, current) · `logo/canva-premium/` (Canva reference, round 3) · `logo/canva/` (round 2) · `logo/concept-a/`, `logo/concept-b/` (round 1, rejected)
+
 **Round 1 record (kept for history):**
 **File(s):** `logo/preview.html` (open in a browser) · `logo/preview.png` · `logo/concept-a/` · `logo/concept-b/` (SVG: horizontal, reversed, icon)
 
@@ -136,4 +148,6 @@
 
 ## Next Action
 
-Hafsa picks the premium monogram: A's solid block LM or B's clean line LM. Then rebuild it as a vector master in the exact brand colours (#043575 / #2F8D27 / #0C75CB), export the set (SVG, PNG, print PDF; logo, logo + slogan, icon, reversed), and start Stage 5 (Business Card). Still open: register lautermobil.de (a purchase; decide whether Hafsa or the client owns it) and consider a DPMA mark filing in classes 39 and 44.
+1. Hafsa confirms the vector master matches the chosen concept closely enough (or asks for tweaks).
+2. Stage 5 (Business Card) is blocked on two missing things: the client's real email (still withheld) and a print-spec decision (size/bleed/format — 05-business-card.md leaves this open). Recommended default: 85×55mm EU standard, 2mm bleed, print-ready PDF. Needs Hafsa's confirmation, not an assumption.
+3. Still open: register lautermobil.de (a purchase) and consider a DPMA filing (classes 39+44). Still open: register lautermobil.de (a purchase; decide whether Hafsa or the client owns it) and consider a DPMA mark filing in classes 39 and 44.

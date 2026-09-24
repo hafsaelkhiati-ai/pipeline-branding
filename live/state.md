@@ -16,8 +16,8 @@
   - **Blueprints:** updated to v0.3 with everything learned.
 
 ## Open Tasks
-- **LauterMobil logo (waiting on Hafsa):** pick A's solid block LM or B's clean line LM (logo/canva-premium/). Then I rebuild it as a vector master with the exact brand colours #043575 / #2F8D27 / #0C75CB, plus variants (logo, logo + slogan, icon, reversed).
-- Then Stage 5 (Business Card): settle the print specs first (size, bleed, format)
+- **LauterMobil logo:** Hafsa picked Proposal A's solid-block LM (2026-09-24). Rebuilt as a vector master in exact brand colours in logo/premium/. Waiting on Hafsa to confirm the redraw matches well enough before it's formally signed off.
+- **Stage 5 (Business Card) blocked** on 2 things: the client's real email (still withheld) and a print-spec decision. I proposed a default (85×55mm EU, 2mm bleed, print PDF) — needs Hafsa's confirmation, not an assumption.
 - Domain lautermobil.de not registered yet: a purchase, needs Hafsa's go and a decision on who owns it (Hafsa or the client)
 - Consider a DPMA trademark filing for LauterMobil in classes 39 + 44
 - Possible Equipment (needs approval): TMview search + RDAP domain check scripts; logo vector generator (currently in .tmp/logo-generator/, not committed)
@@ -28,4 +28,4 @@
 
 ## Active Projects
 - Pipeline Branding: active. This is both the business and the current build.
-- MedPfalz Mobil → **LauterMobil**: active, first client run, at Stage 4 (Logo), waiting on Hafsa's pick
+- MedPfalz Mobil → **LauterMobil**: active, first client run, Stage 4 (Logo) essentially done pending confirmation, Stage 5 blocked on missing inputs
