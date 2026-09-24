@@ -7,3 +7,6 @@ credentials.json
 token.json
 *.pyc
 __pycache__/
+
+# Third-party stock photos (Pexels/Unsplash): kept locally for reference, not redistributed in the public repo
+archive/lautermobil/flyer-stock-photos-rejected-*/

@@ -2,7 +2,7 @@
 
 *Read this before every run. This is the hub — each stage's actual how-to lives in its own sub-blueprint under `blueprints/pipeline-brand-strategy/`.*
 
-**Status:** v0.3. Stages 1–3 validated on the first live run (MedPfalz Mobil → LauterMobil). Stage 4 is in progress. Stages 5–7 haven't been run yet.
+**Status:** v0.4. Stages 1–5 validated on the first live run (MedPfalz Mobil → LauterMobil). Stage 6 flyer draft 1 is waiting on approval. Stage 7 hasn't been run yet.
 **Owner:** Hafsa
 **Replaces:** Manual process currently taking 1+ week per client.
 
@@ -72,3 +72,8 @@ Per `.claude/rules/permissions.md`, always stop and confirm before:
   - 02 and 03 now record the free tools that worked: Vercel + RDAP for domains; TMview API + North Data + web search for trademarks.
   - 04 now starts with a direction interview, uses Canva AI to explore concepts, and records Canva AI's limits (no exact hex codes, inconsistent pages, raster only), so the final logo is a vector master.
   - ChatGPT and Gemini aren't connected. Canva (connected MCP) is the working tool for Stages 4–6.
+- 2026-09-24: v0.4. LauterMobil Stages 4–6.
+  - **04:** the vector master must *reproduce* the approved design exactly (measure the symbol, trace the lettering, verify by pixel overlap). The first reinterpretation was rejected.
+  - **05:** print spec locked in (85×55 mm, 2 sides, 2 mm bleed, 4 mm safe margin, outlined text, PDF). Ask about a personal name, and whether the email and website domain will be registered before print. Phone in +49 format. Card approved.
+  - **06:** print spec locked in (A5, 2 sides, 2 mm bleed, 6 mm safe margin). Free stock photos failed; photos are now AI-generated to Hafsa's brief with Canva `generate-image` and validated one by one before layout. Ask for the client's full service list and only print facts she confirms.
+  - Layout for 05 and 06 is built with generator scripts (in `.tmp/logo-generator/`, pending promotion to Equipment) instead of Canva layouts, so the logo, colours and text stay exact.

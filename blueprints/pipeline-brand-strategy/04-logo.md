@@ -2,7 +2,7 @@
 
 *Part of [pipeline-brand-strategy.md](../pipeline-brand-strategy.md). Read the global orchestrator first.*
 
-**Status:** v0.2: in validation on MedPfalz Mobil / LauterMobil (3 rounds so far, not yet approved).
+**Status:** v0.3: validated on LauterMobil (logo signed off 2026-09-24 after 3 Canva rounds and an exact vector rebuild).
 
 ## Goal
 
@@ -26,7 +26,14 @@ Produce an approved logo consistent with the brand's values, tagline, and audien
 1. Draft a short creative brief from the intake fields plus those answers: what the logo needs to communicate and to whom. Include the don'ts for the industry. For patient transport: no red cross (legally protected in Germany), no star of life, no ambulance or siren imagery.
 2. **Explore concepts in Canva AI** (Canva MCP `create-design`, format "Logo"). Send 2 differently briefed proposals in parallel. Ask for page 1 = logo and page 2 = logo + slogan. Spell all text exactly in the brief. Export PNGs to `logo/` in the project folder and review them before showing Hafsa.
 3. Present the proposals to Hafsa. Logo selection is her decision, never made unilaterally.
-4. **Build the vector master of the chosen direction** with the exact brand hex codes, plus the variants (logo, logo + slogan, icon only, reversed). Canva AI can't produce this itself (see Known Limits).
+4. **Build the vector master as an exact reproduction of the design Hafsa picked.** Don't reinterpret it. The first LauterMobil redraw changed the M shape, the colours and the fonts, and was rejected.
+   - Read the Canva design (`read-design` with a transaction, then cancel) to get the element types, font sizes and letter spacing.
+   - **Symbol:** Canva embeds it as an image, so measure its geometry edge by edge from the exported PNG and rebuild it as clean shapes.
+   - **Lettering:** try matching free fonts by pixel overlap first. If none matches (Canva often uses its own typefaces), trace the letters from the PNG with potrace.
+   - Apply only the changes Hafsa asked for (e.g. her exact hex codes).
+   - **Verify before presenting:** render at the reference's scale and check pixel overlap per layer (target ≥ 94%), plus a visual overlay image.
+   - **Variants:** logo, logo + slogan, icon, reversed versions for dark backgrounds, single-colour. Export as SVG, transparent PNG (3600 px) and vector PDF.
+5. Hafsa signs off a specific file. For LauterMobil that's `logo/final/logo-with-slogan.svg`. Later colour experiments get archived if she reverts.
 
 ## Known Limits of Canva AI (learned 2026-09-23)
 
@@ -49,5 +56,6 @@ None yet.
 
 ## Open Questions
 
-- Exact export formats/sizes needed (e.g. SVG + PNG, specific dimensions) — not yet specified; confirm during the first real run.
-- Which tool makes the vector master: a hand-built SVG (a generator script exists in `.tmp/logo-generator/`, not yet Equipment) or a manual rebuild in Canva with brand colours set.
+- Promote the rebuild scripts (`.tmp/logo-generator/build_exact_logo.py`: measuring, tracing and verifying) to Equipment. Needs approval.
+
+*Resolved 2026-09-24: export formats (SVG + transparent PNG 3600 px + vector PDF, 6 variants) and the vector tool (a hand-built SVG that reproduces the chosen design exactly).*
